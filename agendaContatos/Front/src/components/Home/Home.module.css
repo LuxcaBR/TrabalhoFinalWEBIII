@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 2px 9px #de0000;
+  height: 100vh;
+}
+.title {
+  color: #fff;
+  font-size: 3rem;
+}
+.controles {
+  color: red;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+.contatos {
+  flex-direction: column;
+  box-shadow: 1px 2px 9px #de0000;
+  margin-left: 20rem;
+  background-color: #3636368c;
+  border-radius: 5 ;
+}
+.headerContatos {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 1rem;
+
+}
+.buttons {
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.buttom {
+  height: 3.4rem;
+  width:  3.4rem;
+  align-items: center;
+   background-color: #0303038c;
+   color: #fff;
+   margin-left: 1rem;
+   font-size: 1.7rem;
+   padding-top: 0.3rem;  
+}
+.buttom:hover{
+  box-shadow: 1px 2px 9px #de0000;
+}
+
+.listaContatos {
+  background-color: #363636;
+  padding: 2rem;
+}

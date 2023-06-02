@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  .controles {
+    color: red;
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+
+  .contatos {
+    flex-direction: column;
+    margin-left: 20rem;
+    background-color: #3636368c;
+    border-radius: 5;
+  }
+
+  .headerContatos {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-bottom: 1rem;
+  }
+
+  .buttons {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
+  .buttom {
+    height: 3.4rem;
+    width: 3.4rem;
+    align-items: center;
+    background-color: #0303038c;
+    color: #fff;
+    border-width: 0.1rem;
+    border-color: #3f0000;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    padding-top: 0.3rem;
+  }
+
+  .buttom:hover {
+    box-shadow: 1px 2px 9px #3f0000;
+  }
+  
+  .listaContatos {
+    background-color: #363636;
+    padding: 2rem;
+  }
+
+  .listaCatalogo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+
+  .letraCatalogo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 60px;
+    background-color: var(--color-bg-dark);
+    border: 1px solid #de0000;
+    box-shadow: 1px 2px 5px #de0000;
+    font-size: 2rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    color: #363636;
+  }
+
+  align-items: center;
+  width: 25.6rem;
+  height: 29.4rem;
+  border: #de0000;
+  border-radius: 8px;
+  background: var(--color-bg-dark);
+  box-shadow: 1px 2px 15px #de0000;
+}
+
+.card>img {
+  width: 100%;
+  height: 7.2rem;
+  object-fit: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-top: -3.5rem;
+
+}
+
+.card .p1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 1.6rem;
+
+}
+
+.card .p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+
+.card .spans {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  border-top: 1px solid var(--gray-600);
+  padding: 0.8rem;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.card span {
+  width: 7rem;
+  height: 2.3rem;
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 160%;
+  box-shadow: 1px 2px 9px #de0000;
+
+}
